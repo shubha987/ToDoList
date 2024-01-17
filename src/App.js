@@ -106,7 +106,7 @@ useEffect(()=>{
               <div className="todo-list-item" key={index}>
                 <div>
                   <h3>{item.title}</h3>
-                  <p>{item.Description}</p>
+                  <p>{item.description}</p>
                 </div>
                 <div>
                   <MdDelete className='icon' onClick={()=>handleDeletetodo(index)}/>
@@ -120,7 +120,7 @@ useEffect(()=>{
               <div className="todo-list-item" key={index}>
                 <div>
                   <h3>{item.title}</h3>
-                  <p>{item.Description}</p>
+                  <p>{item.description}</p>
                   <p><small>Completed on :{item.completedOn}</small></p>
                 </div>
                 <div>
